@@ -1,2 +1,8 @@
 # Xtrabackup_Innobackupex_Backup_Restore
 xtrabackup之Innobackupex全备恢复
+
+基于perl语言xtrabackup之Innobackupex的一套备份还原工具
+
+每周一个全量备份
+
+每半小时增加一个基于全量的增量备份

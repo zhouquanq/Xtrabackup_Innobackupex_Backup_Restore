@@ -1,0 +1,7 @@
+[mysqld]
+socket = /tmp/{dbsrvname}.sock
+pid-file = /var/pid/{dbsrvname}.pid
+log = /var/log/mysql/{dbsrvname}.log
+port = {port}	
+datadir = {dbdatadir}	
+user = mysql

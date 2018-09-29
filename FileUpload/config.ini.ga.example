@@ -1,0 +1,34 @@
+[upload]
+
+#log.host 连接主机
+#log.port 端口
+#log.user 用户名
+#log.pass 密码
+#log.passive 模式(FTP上传的主动模式 和 被动模式   Passive => 0会关闭被动模式，Passive => 1会打开被动模式)
+#log.uploadpath 上传文件的路径
+#log.datapath 本地文件路径
+#log.fileproces 文件推送成功后处理方式(0 表示文件转移不删除   1 表示文件删除  其他不做处理)
+#log.fileformat 要传送文件格式
+#log.filemove 转移文件的路径(如果fileproces选择的是转移模式)
+#log.buffer 每次推送文件包的大小 单位KB
+
+#FTP数据推送 信息
+db.host = db.dc.ta.cn
+db.port = 21
+db.user = gm_tools
+db.pass = syxOzpz6CoBRGqUC2Frx
+db.passive = 1
+db.uploadpath = /home/gm_tools/GMAutoUpload/{__PUB__}_db/ga
+db.datapath = /data/db
+db.fileproces = 1
+db.filemove = /home/gm_tools/db
+db.fileformat = lzo|zip|tar.gz
+db.buffer = 1024
+
+#[application]
+#secondpretime 程序第二次执行时的时间间隔
+#recstatus 程序信息记录的状态文件
+
+[application]
+secondpretime=60
+recstatus = /GMToolsAcc/status_files/fileupload.status
