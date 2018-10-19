@@ -1,0 +1,1 @@
+/etc/mysql_3307.cnf 里面的部份目录需要手动给 mysql 组

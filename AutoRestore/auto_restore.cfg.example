@@ -1,0 +1,6 @@
+[restore]
+downpath = /GMTools/AutoRestore/db1123
+workpath = /GMDBase/lywm/gs1
+dbdatadir = /GMDB/lwym/gs1
+dbsrvname = mysql_6501
+port = 6501
